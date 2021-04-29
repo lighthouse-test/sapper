@@ -59,7 +59,7 @@ jobs:
           path: ${{ env.BUILD_PATH }}
 
   publish_test_results:
-    needs: [build_and_test_spa, build_and_test_ssr, build_and_test_static]
+    needs: [build_and_test_ssr, build_and_test_static]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
