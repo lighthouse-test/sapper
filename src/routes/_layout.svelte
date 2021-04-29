@@ -1,22 +1,15 @@
-<script>
-	import Nav from '../components/Nav.svelte';
-
-	export let segment;
-</script>
-
-<style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-</style>
-
-<Nav {segment}/>
-
-<main>
-	<slot></slot>
-</main>
+<header>
+	<h1>SvelteKit Demo</h1>
+	<nav>
+		<a href="/">Home</a>
+	</nav>
+</header>
+<br />
+<slot />
+<br />
+<footer>
+	Check the lighthouse results at
+	<a href="https://lighthouse-test.github.io" rel="noopener" target="_blank">
+		https://lighthouse-test.github.io
+	</a>
+</footer>

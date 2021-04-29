@@ -1,0 +1,19 @@
+{
+	"ci": {
+		"collect": {
+			"url": ["/"],
+			"staticDistDir": "./__sapper__/export"
+		},
+		"assert": {
+			"assertions": {
+				"uses-long-cache-ttl": "off",
+				"uses-http2": "off"
+			}
+		},
+		"upload": {
+			"target": "filesystem",
+			"outputDir": "./__sapper__/export/_lighthouse",
+			"reportFilenamePattern": "%%PATHNAME%%.report.%%EXTENSION%%"
+		}
+	}
+}
