@@ -132,7 +132,7 @@ const Todos = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 	return `<h3>Todos <button>New</button></h3>
 ${``}
 <br>
-<table><thead><tr><th>Id</th>
+<table width="${"100%"}"><thead><tr><th>Id</th>
 			<th>Name</th>
 			<th>description</th>
 			<th>Type</th>
