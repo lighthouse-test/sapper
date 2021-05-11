@@ -148,6 +148,7 @@ ${``}
 				<td>${escape(todo.remind)}</td>
 				<td>${escape(todo.date)}</td>
 				<td><button type="${"button"}">Edit</button>
+					 
 					<button type="${"button"}">Delete</button></td>
 			</tr>`)}</tbody></table>`;
 });
