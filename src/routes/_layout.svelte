@@ -1,5 +1,5 @@
 <header>
-	<h1>SvelteKit Demo</h1>
+	<h1>Sapper Demo</h1>
 	<nav>
 		<a href="/">Home</a>
 	</nav>
