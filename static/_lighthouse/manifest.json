@@ -1,19 +1,19 @@
 [
   {
-    "url": "http://localhost:39409/",
+    "url": "http://localhost:40809/",
     "isRepresentativeRun": false,
     "htmlPath": "/home/runner/work/sapper/sapper/__sapper__/export/_lighthouse/_.report.html",
     "jsonPath": "/home/runner/work/sapper/sapper/__sapper__/export/_lighthouse/_.report.json",
     "summary": {
-      "performance": 0.76,
+      "performance": 0.7,
       "accessibility": 1,
       "best-practices": 1,
-      "seo": 0.94,
+      "seo": 0.93,
       "pwa": 0.2
     }
   },
   {
-    "url": "http://localhost:39409/",
+    "url": "http://localhost:40809/",
     "isRepresentativeRun": false,
     "htmlPath": "/home/runner/work/sapper/sapper/__sapper__/export/_lighthouse/_.report.html",
     "jsonPath": "/home/runner/work/sapper/sapper/__sapper__/export/_lighthouse/_.report.json",
@@ -21,12 +21,12 @@
       "performance": 1,
       "accessibility": 1,
       "best-practices": 1,
-      "seo": 0.94,
+      "seo": 0.93,
       "pwa": 0.2
     }
   },
   {
-    "url": "http://localhost:39409/",
+    "url": "http://localhost:40809/",
     "isRepresentativeRun": true,
     "htmlPath": "/home/runner/work/sapper/sapper/__sapper__/export/_lighthouse/_.report.html",
     "jsonPath": "/home/runner/work/sapper/sapper/__sapper__/export/_lighthouse/_.report.json",
@@ -34,7 +34,7 @@
       "performance": 1,
       "accessibility": 1,
       "best-practices": 1,
-      "seo": 0.94,
+      "seo": 0.93,
       "pwa": 0.2
     }
   }
